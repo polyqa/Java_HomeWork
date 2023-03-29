@@ -1,0 +1,36 @@
+package hw10UseOfSuperInChildClass;
+
+
+public class Daughter extends Father {
+	String birthMonth; 
+	int age;
+	
+	public Daughter() {
+		super();
+		super.father();
+		super.fatherInfo("Poly", 27, 'F', true);
+		super.familyName = "Polyfamily";
+		System.out.println("This is a default Constructor");
+	}
+
+	public Daughter(String birthMonth, int age) {
+		System.out.println("The birth month is: " + birthMonth  + "the age  is:" + age);
+		this.birthMonth = birthMonth;
+		this.age = age;
+	}
+	
+		public void daughter() {
+			
+			System.out.println("This is a regular method from daughter class");
+								
+			}
+		public void daughter(String birthMonth, int age) {
+			System.out.println("The birth month is: " + birthMonth  + "the age  is:" + age);
+			this.birthMonth = birthMonth;
+			this.age = age;
+		}
+		
+		
+		
+		
+}
