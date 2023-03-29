@@ -3,13 +3,13 @@ package java_HW09_Abstraction;
 public abstract class MedicalSchool extends NursingSchool {
 
 	public MedicalSchool() {
-		System.out.println(" i am a default contructor inside medical school abstract Class");
+		System.out.println(" This is a default contructor inside medical school abstract Class");
 	}
 
 	public abstract void anatomyLab();
 
 	public void biochemistryLab() {
-		System.out.println("I am from non abstruct class method biochemistryLab");
+		System.out.println("This is a non abstruct method");
 	}
 
 }

@@ -5,7 +5,7 @@ public abstract class NursingSchool {
 	public abstract void hygiene();
 
 	public void caring() {
-		System.out.println("I am printing from caring method");
+		System.out.println("This is a printing from caring method");
 	}
 
 }
